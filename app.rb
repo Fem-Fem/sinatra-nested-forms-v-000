@@ -5,6 +5,7 @@ module FormsLab
 
     # code other routes/actions here
     get '/' do
+<<<<<<< HEAD
         "Welcome to the Nested Forms Lab! let's navigate to the '/new'"
     end
     
@@ -20,6 +21,13 @@ module FormsLab
       @ships = Ship.all
       # binding.pry
       erb :"pirates/show"
+=======
+      
+    end
+    
+    post '/pirates' do
+      
+>>>>>>> 44771477d2a3d447f0449193525a0ab77e98b5a4
     end
 
   end
